@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import New from './New'
+import Mainpage from './Component/Mainpage'
+import Header from './Component/Header'
+import Footer from './Component/Footer'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+     <Mainpage />
+     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
